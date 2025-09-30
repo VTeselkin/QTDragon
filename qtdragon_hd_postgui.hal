@@ -55,19 +55,39 @@ net eoffset-zlevel-count    scaled-s32-sums.0.in1
 setp scaled-s32-sums.0.scale0 1000
 net eoffset-counts          scaled-s32-sums.0.out-s
 
-# ============================
-# POSTGUI HAL для Raspberry Pi через hal_gpio
-# ============================
+##########################################################
+# POSTGUI_HALFILE для Raspberry Pi 5 + QtDragon_hd
+# Использует hal_gpio для подключения кнопок и реле
+# PINS:
+#   GPIO17  -> E-Stop
+#   GPIO18  -> Реле шпинделя
+#   GPIO22  -> СОЖ
+##########################################################
 
-# Загружаем драйвер hal_gpio с входами и выходами
-loadrt hal_gpio inputs=GPIO17,GPIO22 outputs=GPIO18
-
-# Добавляем в servo-thread
+# -------------------------
+# Загружаем драйвер hal_gpio
+# -------------------------
+loadrt hal_gpio inputs=GPIO18 outputs=GPIO17,GPIO22
 addf hal_gpio.read  servo-thread
 addf hal_gpio.write servo-thread
 
-# Соединяем с LinuxCNC
-net estop-btn  hal_gpio.GPIO17 => halui.estop.activate
-net mist-btn   hal_gpio.GPIO22 => iocontrol.0.coolant-mist
-net spindle-relay motion.spindle-on => hal_gpio.GPIO18
+# -------------------------
+# Соединяем GPIO с сигналами LinuxCNC
+# -------------------------
+
+# E-Stop (GPIO17)
+# hal_gpio.GPIO17-in — пин настроен как OUT в HAL, используется для активации estop
+net estop-btn hal_gpio.GPIO17-in => halui.estop.activate
+
+# Реле шпинделя (GPIO18)
+# hal_gpio.GPIO18-out — пин настроен как IN в HAL, управляется motion.spindle-on
+net spindle-relay motion.spindle-on => hal_gpio.GPIO18-out
+
+# СОЖ (GPIO22)
+# hal_gpio.GPIO22-in — пин настроен как OUT в HAL, управляется iocontrol.0.coolant-mist
+net mist-btn hal_gpio.GPIO22-in => iocontrol.0.coolant-mist
+
+##########################################################
+# END OF FILE
+##########################################################
 
