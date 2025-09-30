@@ -56,21 +56,18 @@ setp scaled-s32-sums.0.scale0 1000
 net eoffset-counts          scaled-s32-sums.0.out-s
 
 # ============================
-# Raspberry Pi GPIO (POSTGUI)
+# POSTGUI HAL для Raspberry Pi через hal_gpio
 # ============================
 
-# Load libgpiod GPIO driver
-loadrt hal_libgpiod
-addf hal_libgpiod.read  servo-thread
-addf hal_libgpiod.write servo-thread
+# Загружаем драйвер hal_gpio с входами и выходами
+loadrt hal_gpio inputs=GPIO17,GPIO22 outputs=GPIO18
 
-# Configure pins
-setp hal_libgpiod.chip0.line17.direction in   # GPIO17 as input
-setp hal_libgpiod.chip0.line18.direction out  # GPIO18 as output
-setp hal_libgpiod.chip0.line22.direction in   # GPIO22 as input
+# Добавляем в servo-thread
+addf hal_gpio.read  servo-thread
+addf hal_gpio.write servo-thread
 
-# Connect to LinuxCNC
-net estop-btn  hal_libgpiod.chip0.line17 => halui.estop.activate
-net spindle-relay motion.spindle-on => hal_libgpiod.chip0.line18
-net mist-btn   hal_libgpiod.chip0.line22 => iocontrol.0.coolant-mist
+# Соединяем с LinuxCNC
+net estop-btn  hal_gpio.GPIO17 => halui.estop.activate
+net mist-btn   hal_gpio.GPIO22 => iocontrol.0.coolant-mist
+net spindle-relay motion.spindle-on => hal_gpio.GPIO18
 
