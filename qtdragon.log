@@ -1,0 +1,4 @@
+2025-10-01 04:26:07,438 - QTvcp.QTVCP.QT_ISTAT - WARNING - Missing [DISPLAY] ANGULAR_INCREMENTS- using defaults.
+2025-10-01 04:26:07,584 - QTvcp.QTVCP.LIB.AUDIO_PLAYER - WARNING - audio alerts - Is python3-gst1.0 installed?
+2025-10-01 04:26:09,777 - QTvcp.QTVCP.LIB.QT_NGCGUI.NGCGUI - WARNING - The ngc_sub path does not exist: /home/cnc/nc_files/ngcgui_lib/slot.ngc
+2025-10-01 04:26:09,777 - QTvcp.QTVCP.LIB.QT_NGCGUI.NGCGUI - WARNING - The ngc_sub path does not exist: /home/cnc/nc_files/ngcgui_lib/qpocket.ngc
