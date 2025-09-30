@@ -59,17 +59,18 @@ net eoffset-counts          scaled-s32-sums.0.out-s
 # Raspberry Pi GPIO (POSTGUI)
 # ============================
 
-# Загружаем драйвер GPIO
-loadrt hal_pi_gpio
-addf hal_pi_gpio.read  servo-thread
-addf hal_pi_gpio.write servo-thread
+# Load libgpiod GPIO driver
+loadrt hal_libgpiod
+addf hal_libgpiod.read  servo-thread
+addf hal_libgpiod.write servo-thread
 
-# Настраиваем пины
-setp hal_pi_gpio.pin-17-in true   # кнопка E-Stop
-setp hal_pi_gpio.pin-22-in true   # кнопка СОЖ
-setp hal_pi_gpio.pin-18-out true  # реле шпинделя
+# Configure pins
+setp hal_libgpiod.chip0.line17.direction in   # GPIO17 as input
+setp hal_libgpiod.chip0.line18.direction out  # GPIO18 as output
+setp hal_libgpiod.chip0.line22.direction in   # GPIO22 as input
 
-# Соединяем с LinuxCNC/QtDragon
-net estop-btn  hal_pi_gpio.pin-17-in  => halui.estop.activate
-net mist-btn   hal_pi_gpio.pin-22-in  => iocontrol.0.coolant-mist
-net spindle-relay motion.spindle-on   => hal_pi_gpio.pin-18-out
+# Connect to LinuxCNC
+net estop-btn  hal_libgpiod.chip0.line17 => halui.estop.activate
+net spindle-relay motion.spindle-on => hal_libgpiod.chip0.line18
+net mist-btn   hal_libgpiod.chip0.line22 => iocontrol.0.coolant-mist
+
