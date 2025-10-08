@@ -67,7 +67,7 @@ net eoffset-counts          scaled-s32-sums.0.out-s
 # -------------------------
 # Загружаем драйвер hal_gpio
 # -------------------------
-loadrt hal_gpio inputs=GPIO18 outputs=GPIO17,GPIO22
+loadrt hal_gpio inputs=GPIO18 outputs=GPIO17,GPIO22,GPIO23
 addf hal_gpio.read  servo-thread
 addf hal_gpio.write servo-thread
 
@@ -75,17 +75,12 @@ addf hal_gpio.write servo-thread
 # Соединяем GPIO с сигналами LinuxCNC
 # -------------------------
 
-# E-Stop (GPIO17)
-# hal_gpio.GPIO17-in — пин настроен как OUT в HAL, используется для активации estop
-net estop-btn hal_gpio.GPIO17-in => halui.estop.activate
 
-# Реле шпинделя (GPIO18)
-# hal_gpio.GPIO18-out — пин настроен как IN в HAL, управляется motion.spindle-on
-net spindle-relay motion.spindle-on => hal_gpio.GPIO18-out
 
-# СОЖ (GPIO22)
-# hal_gpio.GPIO22-in — пин настроен как OUT в HAL, управляется iocontrol.0.coolant-mist
-net mist-btn hal_gpio.GPIO22-in => iocontrol.0.coolant-mist
+net auto_mode_led halui.mode.is-auto => hal_gpio.GPIO17-out
+net mdi_mode_led halui.mode.is-mdi => hal_gpio.GPIO22-out
+net manual_mode_led halui.mode.is-manual => hal_gpio.GPIO23-out
+
 
 ##########################################################
 # END OF FILE

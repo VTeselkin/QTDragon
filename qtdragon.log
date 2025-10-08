@@ -1,4 +1,27 @@
-2025-10-01 04:26:07,438 - QTvcp.QTVCP.QT_ISTAT - WARNING - Missing [DISPLAY] ANGULAR_INCREMENTS- using defaults.
-2025-10-01 04:26:07,584 - QTvcp.QTVCP.LIB.AUDIO_PLAYER - WARNING - audio alerts - Is python3-gst1.0 installed?
-2025-10-01 04:26:09,777 - QTvcp.QTVCP.LIB.QT_NGCGUI.NGCGUI - WARNING - The ngc_sub path does not exist: /home/cnc/nc_files/ngcgui_lib/slot.ngc
-2025-10-01 04:26:09,777 - QTvcp.QTVCP.LIB.QT_NGCGUI.NGCGUI - WARNING - The ngc_sub path does not exist: /home/cnc/nc_files/ngcgui_lib/qpocket.ngc
+2025-10-09 04:30:35,208 - QTvcp.QTVCP.QT_ISTAT - WARNING - Missing [DISPLAY] ANGULAR_INCREMENTS- using defaults.
+2025-10-09 04:30:37,633 - QTvcp.QTVCP.LIB.QT_NGCGUI.NGCGUI - WARNING - The ngc_sub path does not exist: /home/cnc/nc_files/ngcgui_lib/slot.ngc
+2025-10-09 04:30:37,633 - QTvcp.QTVCP.LIB.QT_NGCGUI.NGCGUI - WARNING - The ngc_sub path does not exist: /home/cnc/nc_files/ngcgui_lib/qpocket.ngc
+2025-10-09 04:30:44,582 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - ERROR - load_text(): [Errno 2] No such file or directory: 'mdi_history.dat'
+2025-10-09 04:30:46,320 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - ERROR - load_text(): [Errno 2] No such file or directory: ''
+2025-10-09 04:30:47,574 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - ERROR - load_text(): [Errno 2] No such file or directory: 'mdi_history.dat'
+2025-10-09 04:30:50,208 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - ERROR - load_text(): [Errno 2] No such file or directory: 'mdi_history.dat'
+2025-10-09 04:30:51,654 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - ERROR - load_text(): [Errno 2] No such file or directory: ''
+2025-10-09 04:30:52,294 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - ERROR - load_text(): [Errno 2] No such file or directory: 'mdi_history.dat'
+2025-10-09 04:30:54,326 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - ERROR - load_text(): [Errno 2] No such file or directory: 'mdi_history.dat'
+2025-10-09 04:30:54,870 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - ERROR - load_text(): [Errno 2] No such file or directory: ''
+2025-10-09 04:30:55,414 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - ERROR - load_text(): [Errno 2] No such file or directory: 'mdi_history.dat'
+2025-10-09 04:30:57,630 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - ERROR - load_text(): [Errno 2] No such file or directory: 'mdi_history.dat'
+2025-10-09 04:30:58,567 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - ERROR - load_text(): [Errno 2] No such file or directory: ''
+2025-10-09 04:30:59,170 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - ERROR - load_text(): [Errno 2] No such file or directory: 'mdi_history.dat'
+2025-10-09 04:31:00,227 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - ERROR - load_text(): [Errno 2] No such file or directory: 'mdi_history.dat'
+2025-10-09 04:31:01,333 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - ERROR - load_text(): [Errno 2] No such file or directory: ''
+2025-10-09 04:31:19,672 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - ERROR - load_text(): [Errno 2] No such file or directory: 'mdi_history.dat'
+2025-10-09 04:31:21,481 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - ERROR - load_text(): [Errno 2] No such file or directory: 'mdi_history.dat'
+2025-10-09 04:31:22,232 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - ERROR - load_text(): [Errno 2] No such file or directory: ''
+2025-10-09 04:31:23,368 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - ERROR - load_text(): [Errno 2] No such file or directory: 'mdi_history.dat'
+2025-10-09 04:31:24,390 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - ERROR - load_text(): [Errno 2] No such file or directory: 'mdi_history.dat'
+2025-10-09 04:31:24,936 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - ERROR - load_text(): [Errno 2] No such file or directory: ''
+2025-10-09 04:31:37,415 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - ERROR - load_text(): [Errno 2] No such file or directory: 'mdi_history.dat'
+2025-10-09 04:31:38,522 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - ERROR - load_text(): [Errno 2] No such file or directory: 'mdi_history.dat'
+2025-10-09 04:31:40,665 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - ERROR - load_text(): [Errno 2] No such file or directory: 'mdi_history.dat'
+2025-10-09 04:31:42,677 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - ERROR - load_text(): [Errno 2] No such file or directory: 'mdi_history.dat'
