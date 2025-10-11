@@ -1,7 +1,7 @@
 [DIALOG_GEOMETRY]
 AboutDialog-geometry = 910 539 300 150
 LncMessage-geometry = 910 539 321 118
-ToolChangeDialog-geometry = default
+ToolChangeDialog-geometry = 910 514 340 239
 basicProbeHelpDialog-geometry = 136 229 1124 797
 CalculatorDialog-geometry = 910 539 472 376
 
@@ -22,9 +22,9 @@ RunFromLineDialog_sound_type = READY
 
 [BOOK_KEEPING]
 last_loaded_directory = /home/cnc/linuxcnc/nc_files/examples
-last_loaded_file = /home/cnc/linuxcnc/nc_files/examples/cds.ngc
+last_loaded_file = /home/cnc/linuxcnc/nc_files/examples/spiral.ngc
 style_QSS_Path = DEFAULT
-RecentPath_0 = /home/cnc/linuxcnc/nc_files/examples/cds.ngc
+RecentPath_0 = /home/cnc/linuxcnc/nc_files/examples/3D_Chips.ngc
 
 [ORIGINOFFSET_SYSTEM_NAMES]
 __dialogOffsetViewWidget-G54 = User System 1

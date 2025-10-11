@@ -57,7 +57,7 @@
      <height>1080</height>
     </size>
    </property>
-   <layout class="QHBoxLayout" name="horizontalLayout_51">
+   <layout class="QVBoxLayout" name="verticalLayout_63">
     <property name="leftMargin">
      <number>4</number>
     </property>
@@ -71,964 +71,7 @@
      <number>4</number>
     </property>
     <item>
-     <widget class="QWidget" name="frame_program" native="true">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="minimumSize">
-       <size>
-        <width>0</width>
-        <height>1070</height>
-       </size>
-      </property>
-      <property name="maximumSize">
-       <size>
-        <width>16777215</width>
-        <height>16777215</height>
-       </size>
-      </property>
-      <property name="layoutDirection">
-       <enum>Qt::LeftToRight</enum>
-      </property>
-      <property name="autoFillBackground">
-       <bool>false</bool>
-      </property>
-      <layout class="QGridLayout" name="gridLayout">
-       <property name="sizeConstraint">
-        <enum>QLayout::SetDefaultConstraint</enum>
-       </property>
-       <property name="leftMargin">
-        <number>4</number>
-       </property>
-       <property name="topMargin">
-        <number>0</number>
-       </property>
-       <property name="rightMargin">
-        <number>4</number>
-       </property>
-       <property name="bottomMargin">
-        <number>4</number>
-       </property>
-       <item row="0" column="0">
-        <widget class="IndicatedPushButton" name="btn_cycle_start">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="minimumSize">
-          <size>
-           <width>80</width>
-           <height>80</height>
-          </size>
-         </property>
-         <property name="maximumSize">
-          <size>
-           <width>16777215</width>
-           <height>80</height>
-          </size>
-         </property>
-         <property name="focusPolicy">
-          <enum>Qt::NoFocus</enum>
-         </property>
-         <property name="acceptDrops">
-          <bool>false</bool>
-         </property>
-         <property name="layoutDirection">
-          <enum>Qt::LeftToRight</enum>
-         </property>
-         <property name="text">
-          <string>CYCLE START
-LINE 0</string>
-         </property>
-         <property name="autoRepeat">
-          <bool>false</bool>
-         </property>
-         <property name="flat">
-          <bool>false</bool>
-         </property>
-         <property name="indicator_option" stdset="0">
-          <bool>true</bool>
-         </property>
-         <property name="indicator_status_option" stdset="0">
-          <bool>true</bool>
-         </property>
-         <property name="on_color" stdset="0">
-          <color>
-           <red>0</red>
-           <green>255</green>
-           <blue>0</blue>
-          </color>
-         </property>
-         <property name="shape_option" stdset="0">
-          <number>1</number>
-         </property>
-         <property name="indicator_size" stdset="0">
-          <double>0.200000000000000</double>
-         </property>
-         <property name="right_edge_offset" stdset="0">
-          <number>6</number>
-         </property>
-         <property name="top_edge_offset" stdset="0">
-          <number>6</number>
-         </property>
-         <property name="invert_the_status" stdset="0">
-          <bool>true</bool>
-         </property>
-         <property name="is_idle_status" stdset="0">
-          <bool>true</bool>
-         </property>
-         <property name="isAllHomedSensitive" stdset="0">
-          <bool>true</bool>
-         </property>
-         <property name="isIdleSensitive" stdset="0">
-          <bool>true</bool>
-         </property>
-         <property name="isManSensitive" stdset="0">
-          <bool>false</bool>
-         </property>
-         <property name="isAutoSensitive" stdset="0">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="0">
-        <widget class="ActionButton" name="action_pause">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="minimumSize">
-          <size>
-           <width>80</width>
-           <height>80</height>
-          </size>
-         </property>
-         <property name="maximumSize">
-          <size>
-           <width>0</width>
-           <height>80</height>
-          </size>
-         </property>
-         <property name="focusPolicy">
-          <enum>Qt::NoFocus</enum>
-         </property>
-         <property name="acceptDrops">
-          <bool>false</bool>
-         </property>
-         <property name="layoutDirection">
-          <enum>Qt::LeftToRight</enum>
-         </property>
-         <property name="text">
-          <string>PAUSE</string>
-         </property>
-         <property name="checkable">
-          <bool>true</bool>
-         </property>
-         <property name="autoRepeat">
-          <bool>false</bool>
-         </property>
-         <property name="flat">
-          <bool>false</bool>
-         </property>
-         <property name="indicator_option" stdset="0">
-          <bool>true</bool>
-         </property>
-         <property name="indicator_HAL_pin_option" stdset="0">
-          <bool>false</bool>
-         </property>
-         <property name="indicator_status_option" stdset="0">
-          <bool>true</bool>
-         </property>
-         <property name="checked_state_text_option" stdset="0">
-          <bool>true</bool>
-         </property>
-         <property name="on_color" stdset="0">
-          <color>
-           <red>255</red>
-           <green>255</green>
-           <blue>0</blue>
-          </color>
-         </property>
-         <property name="shape_option" stdset="0">
-          <number>1</number>
-         </property>
-         <property name="indicator_size" stdset="0">
-          <double>0.200000000000000</double>
-         </property>
-         <property name="right_edge_offset" stdset="0">
-          <number>6</number>
-         </property>
-         <property name="top_edge_offset" stdset="0">
-          <number>6</number>
-         </property>
-         <property name="true_state_string" stdset="0">
-          <string>RESUME</string>
-         </property>
-         <property name="false_state_string" stdset="0">
-          <string>PAUSE</string>
-         </property>
-         <property name="is_paused_status" stdset="0">
-          <bool>true</bool>
-         </property>
-         <property name="pause_action" stdset="0">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="0">
-        <widget class="ActionButton" name="action_abort">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="minimumSize">
-          <size>
-           <width>80</width>
-           <height>80</height>
-          </size>
-         </property>
-         <property name="maximumSize">
-          <size>
-           <width>0</width>
-           <height>80</height>
-          </size>
-         </property>
-         <property name="focusPolicy">
-          <enum>Qt::NoFocus</enum>
-         </property>
-         <property name="acceptDrops">
-          <bool>false</bool>
-         </property>
-         <property name="layoutDirection">
-          <enum>Qt::LeftToRight</enum>
-         </property>
-         <property name="text">
-          <string>STOP</string>
-         </property>
-         <property name="autoRepeat">
-          <bool>false</bool>
-         </property>
-         <property name="flat">
-          <bool>false</bool>
-         </property>
-         <property name="abort_action" stdset="0">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-       <item row="3" column="0">
-        <widget class="IndicatedPushButton" name="btn_pause_spindle">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="minimumSize">
-          <size>
-           <width>80</width>
-           <height>80</height>
-          </size>
-         </property>
-         <property name="maximumSize">
-          <size>
-           <width>0</width>
-           <height>80</height>
-          </size>
-         </property>
-         <property name="focusPolicy">
-          <enum>Qt::NoFocus</enum>
-         </property>
-         <property name="acceptDrops">
-          <bool>false</bool>
-         </property>
-         <property name="toolTip">
-          <string>Spindle pause</string>
-         </property>
-         <property name="layoutDirection">
-          <enum>Qt::LeftToRight</enum>
-         </property>
-         <property name="text">
-          <string>PAUSE
-SPINDLE</string>
-         </property>
-         <property name="checkable">
-          <bool>true</bool>
-         </property>
-         <property name="checked">
-          <bool>false</bool>
-         </property>
-         <property name="autoRepeat">
-          <bool>false</bool>
-         </property>
-         <property name="flat">
-          <bool>false</bool>
-         </property>
-         <property name="pin_name" stdset="0">
-          <string/>
-         </property>
-         <property name="indicator_option" stdset="0">
-          <bool>true</bool>
-         </property>
-         <property name="indicator_HAL_pin_option" stdset="0">
-          <bool>false</bool>
-         </property>
-         <property name="indicator_status_option" stdset="0">
-          <bool>false</bool>
-         </property>
-         <property name="checked_state_text_option" stdset="0">
-          <bool>true</bool>
-         </property>
-         <property name="on_color" stdset="0">
-          <color>
-           <red>255</red>
-           <green>0</green>
-           <blue>0</blue>
-          </color>
-         </property>
-         <property name="shape_option" stdset="0">
-          <number>1</number>
-         </property>
-         <property name="indicator_size" stdset="0">
-          <double>0.200000000000000</double>
-         </property>
-         <property name="right_edge_offset" stdset="0">
-          <number>6</number>
-         </property>
-         <property name="top_edge_offset" stdset="0">
-          <number>6</number>
-         </property>
-         <property name="true_state_string" stdset="0">
-          <string>SPINDLE
-PAUSED</string>
-         </property>
-         <property name="false_state_string" stdset="0">
-          <string>PAUSE
-SPINDLE</string>
-         </property>
-         <property name="is_paused_status" stdset="0">
-          <bool>false</bool>
-         </property>
-         <property name="isAutoPauseSensitive" stdset="0">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-       <item row="4" column="0">
-        <widget class="IndicatedPushButton" name="btn_reload_file">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="minimumSize">
-          <size>
-           <width>80</width>
-           <height>80</height>
-          </size>
-         </property>
-         <property name="maximumSize">
-          <size>
-           <width>0</width>
-           <height>80</height>
-          </size>
-         </property>
-         <property name="focusPolicy">
-          <enum>Qt::NoFocus</enum>
-         </property>
-         <property name="acceptDrops">
-          <bool>false</bool>
-         </property>
-         <property name="toolTip">
-          <string>Load Last Recorded File</string>
-         </property>
-         <property name="layoutDirection">
-          <enum>Qt::LeftToRight</enum>
-         </property>
-         <property name="text">
-          <string>RELOAD
-FILE</string>
-         </property>
-         <property name="checkable">
-          <bool>false</bool>
-         </property>
-         <property name="checked">
-          <bool>false</bool>
-         </property>
-         <property name="autoRepeat">
-          <bool>false</bool>
-         </property>
-         <property name="flat">
-          <bool>false</bool>
-         </property>
-         <property name="pin_name" stdset="0">
-          <string/>
-         </property>
-         <property name="indicator_option" stdset="0">
-          <bool>false</bool>
-         </property>
-         <property name="indicator_HAL_pin_option" stdset="0">
-          <bool>false</bool>
-         </property>
-         <property name="checked_state_text_option" stdset="0">
-          <bool>false</bool>
-         </property>
-         <property name="on_color" stdset="0">
-          <color>
-           <red>255</red>
-           <green>0</green>
-           <blue>0</blue>
-          </color>
-         </property>
-         <property name="shape_option" stdset="0">
-          <number>1</number>
-         </property>
-         <property name="indicator_size" stdset="0">
-          <double>0.200000000000000</double>
-         </property>
-         <property name="right_edge_offset" stdset="0">
-          <number>6</number>
-         </property>
-         <property name="top_edge_offset" stdset="0">
-          <number>6</number>
-         </property>
-         <property name="true_state_string" stdset="0">
-          <string/>
-         </property>
-         <property name="false_state_string" stdset="0">
-          <string/>
-         </property>
-         <property name="isManSensitive" stdset="0">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-       <item row="5" column="0">
-        <widget class="ActionButton" name="action_step">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="minimumSize">
-          <size>
-           <width>80</width>
-           <height>80</height>
-          </size>
-         </property>
-         <property name="maximumSize">
-          <size>
-           <width>0</width>
-           <height>80</height>
-          </size>
-         </property>
-         <property name="focusPolicy">
-          <enum>Qt::NoFocus</enum>
-         </property>
-         <property name="acceptDrops">
-          <bool>false</bool>
-         </property>
-         <property name="layoutDirection">
-          <enum>Qt::LeftToRight</enum>
-         </property>
-         <property name="text">
-          <string>STEP</string>
-         </property>
-         <property name="autoRepeat">
-          <bool>false</bool>
-         </property>
-         <property name="flat">
-          <bool>false</bool>
-         </property>
-         <property name="step_action" stdset="0">
-          <bool>true</bool>
-         </property>
-         <property name="template_label_option" stdset="0">
-          <bool>false</bool>
-         </property>
-         <property name="joint_number" stdset="0">
-          <number>0</number>
-         </property>
-         <property name="incr_imperial_number" stdset="0">
-          <double>0.010000000000000</double>
-         </property>
-         <property name="incr_mm_number" stdset="0">
-          <double>0.025000000000000</double>
-         </property>
-         <property name="incr_angular_number" stdset="0">
-          <double>-1.000000000000000</double>
-         </property>
-         <property name="toggle_float_option" stdset="0">
-          <bool>false</bool>
-         </property>
-         <property name="float_num" stdset="0">
-          <double>100.000000000000000</double>
-         </property>
-         <property name="float_alt_num" stdset="0">
-          <double>50.000000000000000</double>
-         </property>
-         <property name="view_type_string" stdset="0">
-          <string>P</string>
-         </property>
-         <property name="command_text_string" stdset="0">
-          <string/>
-         </property>
-         <property name="ini_mdi_number" stdset="0">
-          <number>0</number>
-         </property>
-         <property name="textTemplate" stdset="0">
-          <string>%1.3f in</string>
-         </property>
-         <property name="alt_textTemplate" stdset="0">
-          <string>%1.2f mm</string>
-         </property>
-        </widget>
-       </item>
-       <item row="6" column="0">
-        <widget class="ActionButton" name="action_opt_stp">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="minimumSize">
-          <size>
-           <width>80</width>
-           <height>80</height>
-          </size>
-         </property>
-         <property name="maximumSize">
-          <size>
-           <width>0</width>
-           <height>80</height>
-          </size>
-         </property>
-         <property name="focusPolicy">
-          <enum>Qt::NoFocus</enum>
-         </property>
-         <property name="acceptDrops">
-          <bool>false</bool>
-         </property>
-         <property name="layoutDirection">
-          <enum>Qt::LeftToRight</enum>
-         </property>
-         <property name="text">
-          <string>OPT
-STOP</string>
-         </property>
-         <property name="checkable">
-          <bool>true</bool>
-         </property>
-         <property name="autoRepeat">
-          <bool>false</bool>
-         </property>
-         <property name="flat">
-          <bool>false</bool>
-         </property>
-         <property name="indicator_option" stdset="0">
-          <bool>true</bool>
-         </property>
-         <property name="indicator_HAL_pin_option" stdset="0">
-          <bool>false</bool>
-         </property>
-         <property name="indicator_status_option" stdset="0">
-          <bool>true</bool>
-         </property>
-         <property name="on_color" stdset="0">
-          <color>
-           <red>0</red>
-           <green>255</green>
-           <blue>0</blue>
-          </color>
-         </property>
-         <property name="shape_option" stdset="0">
-          <number>1</number>
-         </property>
-         <property name="indicator_size" stdset="0">
-          <double>0.200000000000000</double>
-         </property>
-         <property name="right_edge_offset" stdset="0">
-          <number>6</number>
-         </property>
-         <property name="top_edge_offset" stdset="0">
-          <number>6</number>
-         </property>
-         <property name="is_optional_stop_status" stdset="0">
-          <bool>true</bool>
-         </property>
-         <property name="optional_stop_action" stdset="0">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-       <item row="7" column="0">
-        <widget class="ActionButton" name="action_opt_blk">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="minimumSize">
-          <size>
-           <width>80</width>
-           <height>80</height>
-          </size>
-         </property>
-         <property name="maximumSize">
-          <size>
-           <width>0</width>
-           <height>80</height>
-          </size>
-         </property>
-         <property name="focusPolicy">
-          <enum>Qt::NoFocus</enum>
-         </property>
-         <property name="acceptDrops">
-          <bool>false</bool>
-         </property>
-         <property name="layoutDirection">
-          <enum>Qt::LeftToRight</enum>
-         </property>
-         <property name="text">
-          <string>OPT
-BLOCK</string>
-         </property>
-         <property name="checkable">
-          <bool>true</bool>
-         </property>
-         <property name="autoRepeat">
-          <bool>false</bool>
-         </property>
-         <property name="flat">
-          <bool>false</bool>
-         </property>
-         <property name="indicator_option" stdset="0">
-          <bool>true</bool>
-         </property>
-         <property name="indicator_HAL_pin_option" stdset="0">
-          <bool>false</bool>
-         </property>
-         <property name="indicator_status_option" stdset="0">
-          <bool>true</bool>
-         </property>
-         <property name="on_color" stdset="0">
-          <color>
-           <red>0</red>
-           <green>255</green>
-           <blue>0</blue>
-          </color>
-         </property>
-         <property name="shape_option" stdset="0">
-          <number>1</number>
-         </property>
-         <property name="indicator_size" stdset="0">
-          <double>0.200000000000000</double>
-         </property>
-         <property name="circle_diameter" stdset="0">
-          <number>10</number>
-         </property>
-         <property name="right_edge_offset" stdset="0">
-          <number>6</number>
-         </property>
-         <property name="top_edge_offset" stdset="0">
-          <number>6</number>
-         </property>
-         <property name="is_block_delete_status" stdset="0">
-          <bool>true</bool>
-         </property>
-         <property name="block_delete_action" stdset="0">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-       <item row="8" column="0">
-        <widget class="ActionButton" name="action_mist">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="minimumSize">
-          <size>
-           <width>80</width>
-           <height>80</height>
-          </size>
-         </property>
-         <property name="maximumSize">
-          <size>
-           <width>0</width>
-           <height>80</height>
-          </size>
-         </property>
-         <property name="focusPolicy">
-          <enum>Qt::NoFocus</enum>
-         </property>
-         <property name="acceptDrops">
-          <bool>false</bool>
-         </property>
-         <property name="layoutDirection">
-          <enum>Qt::LeftToRight</enum>
-         </property>
-         <property name="text">
-          <string>MIST
-OFF</string>
-         </property>
-         <property name="checkable">
-          <bool>true</bool>
-         </property>
-         <property name="checked">
-          <bool>false</bool>
-         </property>
-         <property name="autoRepeat">
-          <bool>false</bool>
-         </property>
-         <property name="flat">
-          <bool>false</bool>
-         </property>
-         <property name="indicator_option" stdset="0">
-          <bool>true</bool>
-         </property>
-         <property name="indicator_HAL_pin_option" stdset="0">
-          <bool>false</bool>
-         </property>
-         <property name="indicator_status_option" stdset="0">
-          <bool>true</bool>
-         </property>
-         <property name="checked_state_text_option" stdset="0">
-          <bool>true</bool>
-         </property>
-         <property name="on_color" stdset="0">
-          <color>
-           <red>0</red>
-           <green>255</green>
-           <blue>0</blue>
-          </color>
-         </property>
-         <property name="shape_option" stdset="0">
-          <number>1</number>
-         </property>
-         <property name="indicator_size" stdset="0">
-          <double>0.200000000000000</double>
-         </property>
-         <property name="right_edge_offset" stdset="0">
-          <number>6</number>
-         </property>
-         <property name="top_edge_offset" stdset="0">
-          <number>6</number>
-         </property>
-         <property name="true_state_string" stdset="0">
-          <string>MIST
-ON</string>
-         </property>
-         <property name="false_state_string" stdset="0">
-          <string>MIST
-OFF</string>
-         </property>
-         <property name="is_mist_status" stdset="0">
-          <bool>true</bool>
-         </property>
-         <property name="mist_action" stdset="0">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-       <item row="9" column="0">
-        <widget class="ActionButton" name="action_flood">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="minimumSize">
-          <size>
-           <width>80</width>
-           <height>80</height>
-          </size>
-         </property>
-         <property name="maximumSize">
-          <size>
-           <width>0</width>
-           <height>80</height>
-          </size>
-         </property>
-         <property name="focusPolicy">
-          <enum>Qt::NoFocus</enum>
-         </property>
-         <property name="acceptDrops">
-          <bool>false</bool>
-         </property>
-         <property name="layoutDirection">
-          <enum>Qt::LeftToRight</enum>
-         </property>
-         <property name="text">
-          <string>FLOOD
-OFF</string>
-         </property>
-         <property name="checkable">
-          <bool>true</bool>
-         </property>
-         <property name="autoRepeat">
-          <bool>false</bool>
-         </property>
-         <property name="flat">
-          <bool>false</bool>
-         </property>
-         <property name="indicator_option" stdset="0">
-          <bool>true</bool>
-         </property>
-         <property name="indicator_HAL_pin_option" stdset="0">
-          <bool>false</bool>
-         </property>
-         <property name="indicator_status_option" stdset="0">
-          <bool>true</bool>
-         </property>
-         <property name="checked_state_text_option" stdset="0">
-          <bool>true</bool>
-         </property>
-         <property name="on_color" stdset="0">
-          <color>
-           <red>0</red>
-           <green>255</green>
-           <blue>0</blue>
-          </color>
-         </property>
-         <property name="shape_option" stdset="0">
-          <number>1</number>
-         </property>
-         <property name="indicator_size" stdset="0">
-          <double>0.200000000000000</double>
-         </property>
-         <property name="right_edge_offset" stdset="0">
-          <number>6</number>
-         </property>
-         <property name="top_edge_offset" stdset="0">
-          <number>6</number>
-         </property>
-         <property name="true_state_string" stdset="0">
-          <string>FLOOD
-ON</string>
-         </property>
-         <property name="false_state_string" stdset="0">
-          <string>FLOOD
-OFF</string>
-         </property>
-         <property name="is_flood_status" stdset="0">
-          <bool>true</bool>
-         </property>
-         <property name="flood_action" stdset="0">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-       <item row="10" column="0">
-        <widget class="IndicatedPushButton" name="btn_enable_comp">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="minimumSize">
-          <size>
-           <width>80</width>
-           <height>80</height>
-          </size>
-         </property>
-         <property name="maximumSize">
-          <size>
-           <width>0</width>
-           <height>80</height>
-          </size>
-         </property>
-         <property name="focusPolicy">
-          <enum>Qt::NoFocus</enum>
-         </property>
-         <property name="acceptDrops">
-          <bool>false</bool>
-         </property>
-         <property name="toolTip">
-          <string>Use Z Axis Compensation file</string>
-         </property>
-         <property name="layoutDirection">
-          <enum>Qt::LeftToRight</enum>
-         </property>
-         <property name="text">
-          <string>ENABLE
-Z COMP</string>
-         </property>
-         <property name="checkable">
-          <bool>true</bool>
-         </property>
-         <property name="checked">
-          <bool>false</bool>
-         </property>
-         <property name="autoRepeat">
-          <bool>false</bool>
-         </property>
-         <property name="flat">
-          <bool>false</bool>
-         </property>
-         <property name="pin_name" stdset="0">
-          <string/>
-         </property>
-         <property name="indicator_option" stdset="0">
-          <bool>true</bool>
-         </property>
-         <property name="indicator_HAL_pin_option" stdset="0">
-          <bool>false</bool>
-         </property>
-         <property name="checked_state_text_option" stdset="0">
-          <bool>true</bool>
-         </property>
-         <property name="on_color" stdset="0">
-          <color>
-           <red>0</red>
-           <green>255</green>
-           <blue>0</blue>
-          </color>
-         </property>
-         <property name="shape_option" stdset="0">
-          <number>1</number>
-         </property>
-         <property name="indicator_size" stdset="0">
-          <double>0.200000000000000</double>
-         </property>
-         <property name="right_edge_offset" stdset="0">
-          <number>6</number>
-         </property>
-         <property name="top_edge_offset" stdset="0">
-          <number>6</number>
-         </property>
-         <property name="true_state_string" stdset="0">
-          <string>Z COMP
-ENABLED</string>
-         </property>
-         <property name="false_state_string" stdset="0">
-          <string>ENABLE
-Z COMP</string>
-         </property>
-        </widget>
-       </item>
-      </layout>
-     </widget>
-    </item>
-    <item>
-     <widget class="ScreenOptions" name="screen_options" native="true">
+     <widget class="ScreenOptions" name="screen_options">
       <property name="sizePolicy">
        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
         <horstretch>0</horstretch>
@@ -1229,6 +272,7 @@ Z COMP</string>
                    <font>
                     <family>Lato Heavy</family>
                     <pointsize>10</pointsize>
+                    <weight>50</weight>
                     <italic>false</italic>
                     <bold>false</bold>
                    </font>
@@ -1254,7 +298,7 @@ Z COMP</string>
                  </widget>
                 </item>
                 <item>
-                 <widget class="GcodeEditor" name="gcode_viewer" native="true">
+                 <widget class="GcodeEditor" name="gcode_viewer">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
                     <horstretch>0</horstretch>
@@ -1277,11 +321,9 @@ Z COMP</string>
                    <font>
                     <family>Lato</family>
                     <pointsize>10</pointsize>
+                    <weight>75</weight>
                     <bold>true</bold>
                    </font>
-                  </property>
-                  <property name="autoFillBackground">
-                   <bool>false</bool>
                   </property>
                   <property name="auto_show_mdi_status" stdset="0">
                    <bool>true</bool>
@@ -2682,7 +1724,7 @@ View</string>
                    </widget>
                   </item>
                   <item>
-                   <widget class="GCodeGraphics" name="gcodegraphics" native="true">
+                   <widget class="GCodeGraphics" name="gcodegraphics">
                     <property name="sizePolicy">
                      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
                       <horstretch>0</horstretch>
@@ -2745,7 +1787,7 @@ View</string>
                    <number>0</number>
                   </property>
                   <item>
-                   <widget class="FileManager" name="filemanager_usb" native="true"/>
+                   <widget class="FileManager" name="filemanager_usb"/>
                   </item>
                   <item>
                    <layout class="QVBoxLayout" name="verticalLayout_5">
@@ -3017,10 +2059,10 @@ GCODE</string>
                    </layout>
                   </item>
                   <item>
-                   <widget class="FileManager" name="filemanager" native="true"/>
+                   <widget class="FileManager" name="filemanager"/>
                   </item>
                   <item>
-                   <widget class="GcodeEditor" name="gcode_editor" native="true">
+                   <widget class="GcodeEditor" name="gcode_editor">
                     <property name="auto_show_mdi_status" stdset="0">
                      <bool>false</bool>
                     </property>
@@ -3796,7 +2838,7 @@ LOG</string>
                    <number>0</number>
                   </property>
                   <item>
-                   <widget class="CamView" name="camview" native="true"/>
+                   <widget class="CamView" name="camview"/>
                   </item>
                   <item>
                    <widget class="QWidget" name="widget_cam_controls" native="true">
@@ -8017,7 +7059,173 @@ LOG</string>
             <number>0</number>
            </property>
            <item>
-            <widget class="QWidget" name="widget_inputs" native="true">
+            <widget class="QGroupBox" name="groupBox_power">
+             <property name="title">
+              <string>ESTOP</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_30">
+              <property name="spacing">
+               <number>6</number>
+              </property>
+              <property name="leftMargin">
+               <number>2</number>
+              </property>
+              <property name="topMargin">
+               <number>2</number>
+              </property>
+              <property name="rightMargin">
+               <number>2</number>
+              </property>
+              <property name="bottomMargin">
+               <number>2</number>
+              </property>
+              <item alignment="Qt::AlignHCenter">
+               <widget class="RoundButton" name="btn_estop">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>80</width>
+                  <height>80</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>80</width>
+                  <height>80</height>
+                 </size>
+                </property>
+                <property name="estop_action" stdset="0">
+                 <bool>true</bool>
+                </property>
+                <property name="image_path" stdset="0">
+                 <pixmap resource="qtdragon_hd.qrc">:/buttons/images/Estop.png</pixmap>
+                </property>
+                <property name="false_image_path" stdset="0">
+                 <pixmap resource="qtdragon_hd.qrc">:/buttons/images/Estop_reset.png</pixmap>
+                </property>
+               </widget>
+              </item>
+              <item alignment="Qt::AlignHCenter">
+               <widget class="ActionButton" name="action_machine_on">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>80</width>
+                  <height>40</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>80</width>
+                  <height>40</height>
+                 </size>
+                </property>
+                <property name="baseSize">
+                 <size>
+                  <width>0</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="toolTip">
+                 <string>Toggle machine state</string>
+                </property>
+                <property name="text">
+                 <string>MACHINE
+OFF</string>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>100</width>
+                  <height>40</height>
+                 </size>
+                </property>
+                <property name="checkable">
+                 <bool>true</bool>
+                </property>
+                <property name="checked">
+                 <bool>false</bool>
+                </property>
+                <property name="flat">
+                 <bool>false</bool>
+                </property>
+                <property name="indicator_option" stdset="0">
+                 <bool>false</bool>
+                </property>
+                <property name="indicator_HAL_pin_option" stdset="0">
+                 <bool>false</bool>
+                </property>
+                <property name="indicator_status_option" stdset="0">
+                 <bool>true</bool>
+                </property>
+                <property name="checked_state_text_option" stdset="0">
+                 <bool>true</bool>
+                </property>
+                <property name="on_color" stdset="0">
+                 <color>
+                  <red>0</red>
+                  <green>255</green>
+                  <blue>0</blue>
+                 </color>
+                </property>
+                <property name="shape_option" stdset="0">
+                 <number>1</number>
+                </property>
+                <property name="off_color" stdset="0">
+                 <color>
+                  <red>255</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                 </color>
+                </property>
+                <property name="indicator_size" stdset="0">
+                 <double>0.200000000000000</double>
+                </property>
+                <property name="right_edge_offset" stdset="0">
+                 <number>6</number>
+                </property>
+                <property name="top_edge_offset" stdset="0">
+                 <number>6</number>
+                </property>
+                <property name="true_state_string" stdset="0">
+                 <string>MACHINE
+ON</string>
+                </property>
+                <property name="false_state_string" stdset="0">
+                 <string>MACHINE
+OFF</string>
+                </property>
+                <property name="is_on_status" stdset="0">
+                 <bool>true</bool>
+                </property>
+                <property name="machine_on_action" stdset="0">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QGroupBox" name="groupBox_inputs">
+             <property name="title">
+              <string>INPUTS</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
              <layout class="QVBoxLayout" name="verticalLayout_22">
               <property name="spacing">
                <number>2</number>
@@ -8034,166 +7242,6 @@ LOG</string>
               <property name="bottomMargin">
                <number>2</number>
               </property>
-              <item>
-               <widget class="QGroupBox" name="groupBox_power">
-                <property name="title">
-                 <string>ESTOP</string>
-                </property>
-                <property name="alignment">
-                 <set>Qt::AlignCenter</set>
-                </property>
-                <layout class="QVBoxLayout" name="verticalLayout_30">
-                 <property name="spacing">
-                  <number>6</number>
-                 </property>
-                 <property name="leftMargin">
-                  <number>2</number>
-                 </property>
-                 <property name="topMargin">
-                  <number>2</number>
-                 </property>
-                 <property name="rightMargin">
-                  <number>2</number>
-                 </property>
-                 <property name="bottomMargin">
-                  <number>2</number>
-                 </property>
-                 <item alignment="Qt::AlignHCenter">
-                  <widget class="RoundButton" name="btn_estop">
-                   <property name="sizePolicy">
-                    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                     <horstretch>0</horstretch>
-                     <verstretch>0</verstretch>
-                    </sizepolicy>
-                   </property>
-                   <property name="minimumSize">
-                    <size>
-                     <width>80</width>
-                     <height>80</height>
-                    </size>
-                   </property>
-                   <property name="maximumSize">
-                    <size>
-                     <width>80</width>
-                     <height>80</height>
-                    </size>
-                   </property>
-                   <property name="estop_action" stdset="0">
-                    <bool>true</bool>
-                   </property>
-                   <property name="image_path" stdset="0">
-                    <pixmap resource="qtdragon_hd.qrc">:/buttons/images/Estop.png</pixmap>
-                   </property>
-                   <property name="false_image_path" stdset="0">
-                    <pixmap resource="qtdragon_hd.qrc">:/buttons/images/Estop_reset.png</pixmap>
-                   </property>
-                  </widget>
-                 </item>
-                 <item alignment="Qt::AlignHCenter">
-                  <widget class="ActionButton" name="action_machine_on">
-                   <property name="sizePolicy">
-                    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                     <horstretch>0</horstretch>
-                     <verstretch>0</verstretch>
-                    </sizepolicy>
-                   </property>
-                   <property name="minimumSize">
-                    <size>
-                     <width>80</width>
-                     <height>40</height>
-                    </size>
-                   </property>
-                   <property name="maximumSize">
-                    <size>
-                     <width>80</width>
-                     <height>40</height>
-                    </size>
-                   </property>
-                   <property name="baseSize">
-                    <size>
-                     <width>0</width>
-                     <height>0</height>
-                    </size>
-                   </property>
-                   <property name="toolTip">
-                    <string>Toggle machine state</string>
-                   </property>
-                   <property name="text">
-                    <string>MACHINE
-OFF</string>
-                   </property>
-                   <property name="iconSize">
-                    <size>
-                     <width>100</width>
-                     <height>40</height>
-                    </size>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>false</bool>
-                   </property>
-                   <property name="flat">
-                    <bool>false</bool>
-                   </property>
-                   <property name="indicator_option" stdset="0">
-                    <bool>false</bool>
-                   </property>
-                   <property name="indicator_HAL_pin_option" stdset="0">
-                    <bool>false</bool>
-                   </property>
-                   <property name="indicator_status_option" stdset="0">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked_state_text_option" stdset="0">
-                    <bool>true</bool>
-                   </property>
-                   <property name="on_color" stdset="0">
-                    <color>
-                     <red>0</red>
-                     <green>255</green>
-                     <blue>0</blue>
-                    </color>
-                   </property>
-                   <property name="shape_option" stdset="0">
-                    <number>1</number>
-                   </property>
-                   <property name="off_color" stdset="0">
-                    <color>
-                     <red>255</red>
-                     <green>0</green>
-                     <blue>0</blue>
-                    </color>
-                   </property>
-                   <property name="indicator_size" stdset="0">
-                    <double>0.200000000000000</double>
-                   </property>
-                   <property name="right_edge_offset" stdset="0">
-                    <number>6</number>
-                   </property>
-                   <property name="top_edge_offset" stdset="0">
-                    <number>6</number>
-                   </property>
-                   <property name="true_state_string" stdset="0">
-                    <string>MACHINE
-ON</string>
-                   </property>
-                   <property name="false_state_string" stdset="0">
-                    <string>MACHINE
-OFF</string>
-                   </property>
-                   <property name="is_on_status" stdset="0">
-                    <bool>true</bool>
-                   </property>
-                   <property name="machine_on_action" stdset="0">
-                    <bool>true</bool>
-                   </property>
-                  </widget>
-                 </item>
-                </layout>
-               </widget>
-              </item>
               <item>
                <layout class="QHBoxLayout" name="horizontalLayout_43">
                 <property name="spacing">
@@ -8234,7 +7282,7 @@ OFF</string>
                  </widget>
                 </item>
                 <item>
-                 <widget class="StateLED" name="hal_led_home_x" native="true">
+                 <widget class="StateLED" name="hal_led_home_x">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -8256,10 +7304,10 @@ OFF</string>
                   <property name="halpin_option" stdset="0">
                    <bool>false</bool>
                   </property>
-                  <property name="diameter" stdset="0">
+                  <property name="diameter">
                    <number>15</number>
                   </property>
-                  <property name="color" stdset="0">
+                  <property name="color">
                    <color>
                     <red>0</red>
                     <green>255</green>
@@ -8320,7 +7368,7 @@ OFF</string>
                  </widget>
                 </item>
                 <item>
-                 <widget class="StateLED" name="hal_led_home_y" native="true">
+                 <widget class="StateLED" name="hal_led_home_y">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -8342,10 +7390,10 @@ OFF</string>
                   <property name="halpin_option" stdset="0">
                    <bool>false</bool>
                   </property>
-                  <property name="diameter" stdset="0">
+                  <property name="diameter">
                    <number>15</number>
                   </property>
-                  <property name="color" stdset="0">
+                  <property name="color">
                    <color>
                     <red>0</red>
                     <green>255</green>
@@ -8409,7 +7457,7 @@ OFF</string>
                  </widget>
                 </item>
                 <item>
-                 <widget class="StateLED" name="hal_led_home_z" native="true">
+                 <widget class="StateLED" name="hal_led_home_z">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -8431,10 +7479,10 @@ OFF</string>
                   <property name="halpin_option" stdset="0">
                    <bool>false</bool>
                   </property>
-                  <property name="diameter" stdset="0">
+                  <property name="diameter">
                    <number>15</number>
                   </property>
-                  <property name="color" stdset="0">
+                  <property name="color">
                    <color>
                     <red>0</red>
                     <green>255</green>
@@ -8516,7 +7564,7 @@ OFF</string>
                     </widget>
                    </item>
                    <item>
-                    <widget class="StateLED" name="hal_led_home_4" native="true">
+                    <widget class="StateLED" name="hal_led_home_4">
                      <property name="sizePolicy">
                       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                        <horstretch>0</horstretch>
@@ -8538,10 +7586,10 @@ OFF</string>
                      <property name="halpin_option" stdset="0">
                       <bool>false</bool>
                      </property>
-                     <property name="diameter" stdset="0">
+                     <property name="diameter">
                       <number>15</number>
                      </property>
-                     <property name="color" stdset="0">
+                     <property name="color">
                       <color>
                        <red>0</red>
                        <green>255</green>
@@ -8621,7 +7669,7 @@ OFF</string>
                   </widget>
                  </item>
                  <item>
-                  <widget class="StateLED" name="hal_led_home_5" native="true">
+                  <widget class="StateLED" name="hal_led_home_5">
                    <property name="sizePolicy">
                     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                      <horstretch>0</horstretch>
@@ -8643,10 +7691,10 @@ OFF</string>
                    <property name="halpin_option" stdset="0">
                     <bool>false</bool>
                    </property>
-                   <property name="diameter" stdset="0">
+                   <property name="diameter">
                     <number>15</number>
                    </property>
-                   <property name="color" stdset="0">
+                   <property name="color">
                     <color>
                      <red>0</red>
                      <green>255</green>
@@ -8711,7 +7759,7 @@ OFF</string>
                  </widget>
                 </item>
                 <item>
-                 <widget class="LED" name="hal_led_probe" native="true">
+                 <widget class="LED" name="hal_led_probe">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -8733,10 +7781,10 @@ OFF</string>
                   <property name="pin_name" stdset="0">
                    <string>led-probe</string>
                   </property>
-                  <property name="diameter" stdset="0">
+                  <property name="diameter">
                    <number>15</number>
                   </property>
-                  <property name="color" stdset="0">
+                  <property name="color">
                    <color>
                     <red>0</red>
                     <green>255</green>
@@ -8767,7 +7815,7 @@ OFF</string>
                  </widget>
                 </item>
                 <item>
-                 <widget class="StateLED" name="hal_led_atspeed" native="true">
+                 <widget class="StateLED" name="hal_led_atspeed">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -8792,7 +7840,7 @@ OFF</string>
                   <property name="halpin_option" stdset="0">
                    <bool>true</bool>
                   </property>
-                  <property name="color" stdset="0">
+                  <property name="color">
                    <color>
                     <red>0</red>
                     <green>255</green>
@@ -8853,7 +7901,7 @@ OFF</string>
                  </widget>
                 </item>
                 <item>
-                 <widget class="LED" name="hal_led_limit" native="true">
+                 <widget class="LED" name="hal_led_limit">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -8878,7 +7926,7 @@ OFF</string>
                   <property name="pin_name" stdset="0">
                    <string>led-limits-tripped</string>
                   </property>
-                  <property name="color" stdset="0">
+                  <property name="color">
                    <color>
                     <red>85</red>
                     <green>255</green>
@@ -8933,7 +7981,7 @@ OFF</string>
                  </widget>
                 </item>
                 <item>
-                 <widget class="StateLED" name="stateled" native="true">
+                 <widget class="StateLED" name="stateled">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -9346,7 +8394,1206 @@ OFF</string>
          <property name="bottomMargin">
           <number>0</number>
          </property>
-         <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+         <item>
+          <widget class="QGroupBox" name="frame_program">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>400</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>400</height>
+            </size>
+           </property>
+           <property name="title">
+            <string>PROGRAM</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_29">
+            <property name="spacing">
+             <number>2</number>
+            </property>
+            <property name="leftMargin">
+             <number>4</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>4</number>
+            </property>
+            <property name="bottomMargin">
+             <number>4</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="spacer_2">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>4</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>4</height>
+               </size>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="widget_cycle_start" native="true">
+              <layout class="QHBoxLayout" name="horizontalLayout_38">
+               <property name="spacing">
+                <number>4</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="IndicatedPushButton" name="btn_cycle_start">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>188</width>
+                   <height>48</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>48</height>
+                  </size>
+                 </property>
+                 <property name="focusPolicy">
+                  <enum>Qt::NoFocus</enum>
+                 </property>
+                 <property name="text">
+                  <string>CYCLE START
+LINE 0</string>
+                 </property>
+                 <property name="indicator_option" stdset="0">
+                  <bool>true</bool>
+                 </property>
+                 <property name="indicator_status_option" stdset="0">
+                  <bool>true</bool>
+                 </property>
+                 <property name="on_color" stdset="0">
+                  <color>
+                   <red>0</red>
+                   <green>255</green>
+                   <blue>0</blue>
+                  </color>
+                 </property>
+                 <property name="shape_option" stdset="0">
+                  <number>1</number>
+                 </property>
+                 <property name="indicator_size" stdset="0">
+                  <double>0.200000000000000</double>
+                 </property>
+                 <property name="right_edge_offset" stdset="0">
+                  <number>6</number>
+                 </property>
+                 <property name="top_edge_offset" stdset="0">
+                  <number>6</number>
+                 </property>
+                 <property name="invert_the_status" stdset="0">
+                  <bool>true</bool>
+                 </property>
+                 <property name="is_idle_status" stdset="0">
+                  <bool>true</bool>
+                 </property>
+                 <property name="isAllHomedSensitive" stdset="0">
+                  <bool>true</bool>
+                 </property>
+                 <property name="isIdleSensitive" stdset="0">
+                  <bool>true</bool>
+                 </property>
+                 <property name="isManSensitive" stdset="0">
+                  <bool>false</bool>
+                 </property>
+                 <property name="isAutoSensitive" stdset="0">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="widget_pause_stop" native="true">
+              <layout class="QHBoxLayout" name="horizontalLayout_50">
+               <property name="spacing">
+                <number>4</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="ActionButton" name="action_pause">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>90</width>
+                   <height>48</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>100</width>
+                   <height>48</height>
+                  </size>
+                 </property>
+                 <property name="focusPolicy">
+                  <enum>Qt::NoFocus</enum>
+                 </property>
+                 <property name="text">
+                  <string>PAUSE</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="indicator_option" stdset="0">
+                  <bool>true</bool>
+                 </property>
+                 <property name="indicator_HAL_pin_option" stdset="0">
+                  <bool>false</bool>
+                 </property>
+                 <property name="indicator_status_option" stdset="0">
+                  <bool>true</bool>
+                 </property>
+                 <property name="checked_state_text_option" stdset="0">
+                  <bool>true</bool>
+                 </property>
+                 <property name="on_color" stdset="0">
+                  <color>
+                   <red>255</red>
+                   <green>255</green>
+                   <blue>0</blue>
+                  </color>
+                 </property>
+                 <property name="shape_option" stdset="0">
+                  <number>1</number>
+                 </property>
+                 <property name="indicator_size" stdset="0">
+                  <double>0.200000000000000</double>
+                 </property>
+                 <property name="right_edge_offset" stdset="0">
+                  <number>6</number>
+                 </property>
+                 <property name="top_edge_offset" stdset="0">
+                  <number>6</number>
+                 </property>
+                 <property name="true_state_string" stdset="0">
+                  <string>RESUME</string>
+                 </property>
+                 <property name="false_state_string" stdset="0">
+                  <string>PAUSE</string>
+                 </property>
+                 <property name="is_paused_status" stdset="0">
+                  <bool>true</bool>
+                 </property>
+                 <property name="pause_action" stdset="0">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="ActionButton" name="action_abort">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>90</width>
+                   <height>48</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>100</width>
+                   <height>48</height>
+                  </size>
+                 </property>
+                 <property name="focusPolicy">
+                  <enum>Qt::NoFocus</enum>
+                 </property>
+                 <property name="text">
+                  <string>STOP</string>
+                 </property>
+                 <property name="abort_action" stdset="0">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="widget_block_step" native="true">
+              <layout class="QHBoxLayout" name="horizontalLayout_51">
+               <property name="spacing">
+                <number>4</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="IndicatedPushButton" name="btn_reload_file">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>90</width>
+                   <height>48</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>100</width>
+                   <height>48</height>
+                  </size>
+                 </property>
+                 <property name="focusPolicy">
+                  <enum>Qt::NoFocus</enum>
+                 </property>
+                 <property name="toolTip">
+                  <string>Load Last Recorded File</string>
+                 </property>
+                 <property name="text">
+                  <string>RELOAD
+FILE</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>false</bool>
+                 </property>
+                 <property name="checked">
+                  <bool>false</bool>
+                 </property>
+                 <property name="pin_name" stdset="0">
+                  <string/>
+                 </property>
+                 <property name="indicator_option" stdset="0">
+                  <bool>false</bool>
+                 </property>
+                 <property name="indicator_HAL_pin_option" stdset="0">
+                  <bool>false</bool>
+                 </property>
+                 <property name="checked_state_text_option" stdset="0">
+                  <bool>false</bool>
+                 </property>
+                 <property name="on_color" stdset="0">
+                  <color>
+                   <red>255</red>
+                   <green>0</green>
+                   <blue>0</blue>
+                  </color>
+                 </property>
+                 <property name="shape_option" stdset="0">
+                  <number>1</number>
+                 </property>
+                 <property name="indicator_size" stdset="0">
+                  <double>0.200000000000000</double>
+                 </property>
+                 <property name="right_edge_offset" stdset="0">
+                  <number>6</number>
+                 </property>
+                 <property name="top_edge_offset" stdset="0">
+                  <number>6</number>
+                 </property>
+                 <property name="true_state_string" stdset="0">
+                  <string/>
+                 </property>
+                 <property name="false_state_string" stdset="0">
+                  <string/>
+                 </property>
+                 <property name="isManSensitive" stdset="0">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="ActionButton" name="action_step">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>90</width>
+                   <height>48</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>100</width>
+                   <height>48</height>
+                  </size>
+                 </property>
+                 <property name="focusPolicy">
+                  <enum>Qt::NoFocus</enum>
+                 </property>
+                 <property name="text">
+                  <string>STEP</string>
+                 </property>
+                 <property name="step_action" stdset="0">
+                  <bool>true</bool>
+                 </property>
+                 <property name="template_label_option" stdset="0">
+                  <bool>false</bool>
+                 </property>
+                 <property name="joint_number" stdset="0">
+                  <number>0</number>
+                 </property>
+                 <property name="incr_imperial_number" stdset="0">
+                  <double>0.010000000000000</double>
+                 </property>
+                 <property name="incr_mm_number" stdset="0">
+                  <double>0.025000000000000</double>
+                 </property>
+                 <property name="incr_angular_number" stdset="0">
+                  <double>-1.000000000000000</double>
+                 </property>
+                 <property name="toggle_float_option" stdset="0">
+                  <bool>false</bool>
+                 </property>
+                 <property name="float_num" stdset="0">
+                  <double>100.000000000000000</double>
+                 </property>
+                 <property name="float_alt_num" stdset="0">
+                  <double>50.000000000000000</double>
+                 </property>
+                 <property name="view_type_string" stdset="0">
+                  <string>P</string>
+                 </property>
+                 <property name="command_text_string" stdset="0">
+                  <string/>
+                 </property>
+                 <property name="ini_mdi_number" stdset="0">
+                  <number>0</number>
+                 </property>
+                 <property name="textTemplate" stdset="0">
+                  <string>%1.3f in</string>
+                 </property>
+                 <property name="alt_textTemplate" stdset="0">
+                  <string>%1.2f mm</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="widget_stop_reload" native="true">
+              <layout class="QHBoxLayout" name="horizontalLayout_52">
+               <property name="spacing">
+                <number>4</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="ActionButton" name="action_opt_stp">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>90</width>
+                   <height>48</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>100</width>
+                   <height>48</height>
+                  </size>
+                 </property>
+                 <property name="focusPolicy">
+                  <enum>Qt::NoFocus</enum>
+                 </property>
+                 <property name="text">
+                  <string>OPT
+STOP</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="indicator_option" stdset="0">
+                  <bool>true</bool>
+                 </property>
+                 <property name="indicator_HAL_pin_option" stdset="0">
+                  <bool>false</bool>
+                 </property>
+                 <property name="indicator_status_option" stdset="0">
+                  <bool>true</bool>
+                 </property>
+                 <property name="on_color" stdset="0">
+                  <color>
+                   <red>0</red>
+                   <green>255</green>
+                   <blue>0</blue>
+                  </color>
+                 </property>
+                 <property name="shape_option" stdset="0">
+                  <number>1</number>
+                 </property>
+                 <property name="indicator_size" stdset="0">
+                  <double>0.200000000000000</double>
+                 </property>
+                 <property name="right_edge_offset" stdset="0">
+                  <number>6</number>
+                 </property>
+                 <property name="top_edge_offset" stdset="0">
+                  <number>6</number>
+                 </property>
+                 <property name="is_optional_stop_status" stdset="0">
+                  <bool>true</bool>
+                 </property>
+                 <property name="optional_stop_action" stdset="0">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="ActionButton" name="action_opt_blk">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>90</width>
+                   <height>48</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>100</width>
+                   <height>48</height>
+                  </size>
+                 </property>
+                 <property name="focusPolicy">
+                  <enum>Qt::NoFocus</enum>
+                 </property>
+                 <property name="text">
+                  <string>OPT
+BLOCK</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="indicator_option" stdset="0">
+                  <bool>true</bool>
+                 </property>
+                 <property name="indicator_HAL_pin_option" stdset="0">
+                  <bool>false</bool>
+                 </property>
+                 <property name="indicator_status_option" stdset="0">
+                  <bool>true</bool>
+                 </property>
+                 <property name="on_color" stdset="0">
+                  <color>
+                   <red>0</red>
+                   <green>255</green>
+                   <blue>0</blue>
+                  </color>
+                 </property>
+                 <property name="shape_option" stdset="0">
+                  <number>1</number>
+                 </property>
+                 <property name="indicator_size" stdset="0">
+                  <double>0.200000000000000</double>
+                 </property>
+                 <property name="circle_diameter" stdset="0">
+                  <number>10</number>
+                 </property>
+                 <property name="right_edge_offset" stdset="0">
+                  <number>6</number>
+                 </property>
+                 <property name="top_edge_offset" stdset="0">
+                  <number>6</number>
+                 </property>
+                 <property name="is_block_delete_status" stdset="0">
+                  <bool>true</bool>
+                 </property>
+                 <property name="block_delete_action" stdset="0">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="widget_mist_flood" native="true">
+              <layout class="QHBoxLayout" name="horizontalLayout_58">
+               <property name="spacing">
+                <number>4</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="ActionButton" name="action_mist">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>90</width>
+                   <height>48</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>100</width>
+                   <height>48</height>
+                  </size>
+                 </property>
+                 <property name="focusPolicy">
+                  <enum>Qt::NoFocus</enum>
+                 </property>
+                 <property name="text">
+                  <string>MIST
+OFF</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="checked">
+                  <bool>false</bool>
+                 </property>
+                 <property name="indicator_option" stdset="0">
+                  <bool>true</bool>
+                 </property>
+                 <property name="indicator_HAL_pin_option" stdset="0">
+                  <bool>false</bool>
+                 </property>
+                 <property name="indicator_status_option" stdset="0">
+                  <bool>true</bool>
+                 </property>
+                 <property name="checked_state_text_option" stdset="0">
+                  <bool>true</bool>
+                 </property>
+                 <property name="on_color" stdset="0">
+                  <color>
+                   <red>0</red>
+                   <green>255</green>
+                   <blue>0</blue>
+                  </color>
+                 </property>
+                 <property name="shape_option" stdset="0">
+                  <number>1</number>
+                 </property>
+                 <property name="indicator_size" stdset="0">
+                  <double>0.200000000000000</double>
+                 </property>
+                 <property name="right_edge_offset" stdset="0">
+                  <number>6</number>
+                 </property>
+                 <property name="top_edge_offset" stdset="0">
+                  <number>6</number>
+                 </property>
+                 <property name="true_state_string" stdset="0">
+                  <string>MIST
+ON</string>
+                 </property>
+                 <property name="false_state_string" stdset="0">
+                  <string>MIST
+OFF</string>
+                 </property>
+                 <property name="is_mist_status" stdset="0">
+                  <bool>true</bool>
+                 </property>
+                 <property name="mist_action" stdset="0">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="ActionButton" name="action_flood">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>90</width>
+                   <height>48</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>100</width>
+                   <height>48</height>
+                  </size>
+                 </property>
+                 <property name="focusPolicy">
+                  <enum>Qt::NoFocus</enum>
+                 </property>
+                 <property name="text">
+                  <string>FLOOD
+OFF</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="indicator_option" stdset="0">
+                  <bool>true</bool>
+                 </property>
+                 <property name="indicator_HAL_pin_option" stdset="0">
+                  <bool>false</bool>
+                 </property>
+                 <property name="indicator_status_option" stdset="0">
+                  <bool>true</bool>
+                 </property>
+                 <property name="checked_state_text_option" stdset="0">
+                  <bool>true</bool>
+                 </property>
+                 <property name="on_color" stdset="0">
+                  <color>
+                   <red>0</red>
+                   <green>255</green>
+                   <blue>0</blue>
+                  </color>
+                 </property>
+                 <property name="shape_option" stdset="0">
+                  <number>1</number>
+                 </property>
+                 <property name="indicator_size" stdset="0">
+                  <double>0.200000000000000</double>
+                 </property>
+                 <property name="right_edge_offset" stdset="0">
+                  <number>6</number>
+                 </property>
+                 <property name="top_edge_offset" stdset="0">
+                  <number>6</number>
+                 </property>
+                 <property name="true_state_string" stdset="0">
+                  <string>FLOOD
+ON</string>
+                 </property>
+                 <property name="false_state_string" stdset="0">
+                  <string>FLOOD
+OFF</string>
+                 </property>
+                 <property name="is_flood_status" stdset="0">
+                  <bool>true</bool>
+                 </property>
+                 <property name="flood_action" stdset="0">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="widget_pause_spindle" native="true">
+              <layout class="QHBoxLayout" name="horizontalLayout_54">
+               <property name="spacing">
+                <number>4</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="IndicatedPushButton" name="btn_pause_spindle">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>90</width>
+                   <height>48</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>100</width>
+                   <height>48</height>
+                  </size>
+                 </property>
+                 <property name="focusPolicy">
+                  <enum>Qt::NoFocus</enum>
+                 </property>
+                 <property name="toolTip">
+                  <string>Spindle pause</string>
+                 </property>
+                 <property name="text">
+                  <string>PAUSE
+SPINDLE</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="checked">
+                  <bool>false</bool>
+                 </property>
+                 <property name="pin_name" stdset="0">
+                  <string/>
+                 </property>
+                 <property name="indicator_option" stdset="0">
+                  <bool>true</bool>
+                 </property>
+                 <property name="indicator_HAL_pin_option" stdset="0">
+                  <bool>false</bool>
+                 </property>
+                 <property name="indicator_status_option" stdset="0">
+                  <bool>false</bool>
+                 </property>
+                 <property name="checked_state_text_option" stdset="0">
+                  <bool>true</bool>
+                 </property>
+                 <property name="on_color" stdset="0">
+                  <color>
+                   <red>255</red>
+                   <green>0</green>
+                   <blue>0</blue>
+                  </color>
+                 </property>
+                 <property name="shape_option" stdset="0">
+                  <number>1</number>
+                 </property>
+                 <property name="indicator_size" stdset="0">
+                  <double>0.200000000000000</double>
+                 </property>
+                 <property name="right_edge_offset" stdset="0">
+                  <number>6</number>
+                 </property>
+                 <property name="top_edge_offset" stdset="0">
+                  <number>6</number>
+                 </property>
+                 <property name="true_state_string" stdset="0">
+                  <string>SPINDLE
+PAUSED</string>
+                 </property>
+                 <property name="false_state_string" stdset="0">
+                  <string>PAUSE
+SPINDLE</string>
+                 </property>
+                 <property name="is_paused_status" stdset="0">
+                  <bool>false</bool>
+                 </property>
+                 <property name="isAutoPauseSensitive" stdset="0">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QWidget" name="widget_eoffset" native="true">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>90</width>
+                   <height>48</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>100</width>
+                   <height>48</height>
+                  </size>
+                 </property>
+                 <layout class="QVBoxLayout" name="verticalLayout_18">
+                  <property name="spacing">
+                   <number>4</number>
+                  </property>
+                  <property name="leftMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="topMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="rightMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="bottomMargin">
+                   <number>0</number>
+                  </property>
+                  <item>
+                   <widget class="IndicatedPushButton" name="btn_enable_comp">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="minimumSize">
+                     <size>
+                      <width>90</width>
+                      <height>48</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>100</width>
+                      <height>48</height>
+                     </size>
+                    </property>
+                    <property name="focusPolicy">
+                     <enum>Qt::NoFocus</enum>
+                    </property>
+                    <property name="toolTip">
+                     <string>Use Z Axis Compensation file</string>
+                    </property>
+                    <property name="text">
+                     <string>ENABLE
+Z COMP</string>
+                    </property>
+                    <property name="checkable">
+                     <bool>true</bool>
+                    </property>
+                    <property name="checked">
+                     <bool>false</bool>
+                    </property>
+                    <property name="pin_name" stdset="0">
+                     <string/>
+                    </property>
+                    <property name="indicator_option" stdset="0">
+                     <bool>true</bool>
+                    </property>
+                    <property name="indicator_HAL_pin_option" stdset="0">
+                     <bool>false</bool>
+                    </property>
+                    <property name="checked_state_text_option" stdset="0">
+                     <bool>true</bool>
+                    </property>
+                    <property name="on_color" stdset="0">
+                     <color>
+                      <red>0</red>
+                      <green>255</green>
+                      <blue>0</blue>
+                     </color>
+                    </property>
+                    <property name="shape_option" stdset="0">
+                     <number>1</number>
+                    </property>
+                    <property name="indicator_size" stdset="0">
+                     <double>0.200000000000000</double>
+                    </property>
+                    <property name="right_edge_offset" stdset="0">
+                     <number>6</number>
+                    </property>
+                    <property name="top_edge_offset" stdset="0">
+                     <number>6</number>
+                    </property>
+                    <property name="true_state_string" stdset="0">
+                     <string>Z COMP
+ENABLED</string>
+                    </property>
+                    <property name="false_state_string" stdset="0">
+                     <string>ENABLE
+Z COMP</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="widget_zaxis_offset_2" native="true">
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>25</height>
+               </size>
+              </property>
+              <layout class="QHBoxLayout" name="horizontalLayout_66">
+               <property name="spacing">
+                <number>4</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>6</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QLabel" name="label_46">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>28</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>28</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>SPINDLE LIFT</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="spindle_eoffset_value">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>27</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>80</width>
+                   <height>27</height>
+                  </size>
+                 </property>
+                 <property name="focusPolicy">
+                  <enum>Qt::NoFocus</enum>
+                 </property>
+                 <property name="toolTip">
+                  <string>External offset value</string>
+                 </property>
+                 <property name="text">
+                  <string>000</string>
+                 </property>
+                 <property name="maxLength">
+                  <number>10</number>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                 <property name="readOnly">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="widget_zaxis_offset" native="true">
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>25</height>
+               </size>
+              </property>
+              <layout class="QHBoxLayout" name="horizontalLayout_33">
+               <property name="spacing">
+                <number>4</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>6</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QLabel" name="label_25">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>28</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>28</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>Z AXIS COMP</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="z_comp_eoffset_value">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>80</width>
+                   <height>27</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>80</width>
+                   <height>27</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>000</string>
+                 </property>
+                 <property name="maxLength">
+                  <number>10</number>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                 <property name="readOnly">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
           <widget class="QGroupBox" name="frame_tool">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
@@ -9388,180 +9635,46 @@ OFF</string>
             <property name="bottomMargin">
              <number>4</number>
             </property>
-            <item alignment="Qt::AlignHCenter">
-             <widget class="QLabel" name="lbl_tool_image">
+            <item>
+             <widget class="QLabel" name="spacer">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
               <property name="minimumSize">
                <size>
                 <width>0</width>
-                <height>0</height>
+                <height>8</height>
                </size>
               </property>
               <property name="maximumSize">
                <size>
-                <width>120</width>
-                <height>140</height>
+                <width>16777215</width>
+                <height>8</height>
                </size>
               </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="lbl_tool_image">
               <property name="text">
                <string/>
               </property>
               <property name="pixmap">
                <pixmap resource="qtdragon_hd.qrc">:/images/images/atc_spindle_tool.png</pixmap>
               </property>
-              <property name="scaledContents">
-               <bool>true</bool>
-              </property>
               <property name="alignment">
-               <set>Qt::AlignHCenter|Qt::AlignTop</set>
-              </property>
-              <property name="wordWrap">
-               <bool>false</bool>
+               <set>Qt::AlignBottom|Qt::AlignHCenter</set>
               </property>
               <property name="margin">
-               <number>0</number>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <layout class="QHBoxLayout" name="horizontalLayout_38" stretch="0,0">
-              <property name="spacing">
                <number>4</number>
               </property>
-              <item>
-               <widget class="QLabel" name="label_46">
-                <property name="sizePolicy">
-                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-                  <horstretch>0</horstretch>
-                  <verstretch>0</verstretch>
-                 </sizepolicy>
-                </property>
-                <property name="minimumSize">
-                 <size>
-                  <width>0</width>
-                  <height>30</height>
-                 </size>
-                </property>
-                <property name="maximumSize">
-                 <size>
-                  <width>16777215</width>
-                  <height>28</height>
-                 </size>
-                </property>
-                <property name="text">
-                 <string>SPINDLE LIFT</string>
-                </property>
-                <property name="alignment">
-                 <set>Qt::AlignCenter</set>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QLineEdit" name="spindle_eoffset_value">
-                <property name="sizePolicy">
-                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                  <horstretch>0</horstretch>
-                  <verstretch>0</verstretch>
-                 </sizepolicy>
-                </property>
-                <property name="minimumSize">
-                 <size>
-                  <width>60</width>
-                  <height>30</height>
-                 </size>
-                </property>
-                <property name="maximumSize">
-                 <size>
-                  <width>60</width>
-                  <height>30</height>
-                 </size>
-                </property>
-                <property name="focusPolicy">
-                 <enum>Qt::NoFocus</enum>
-                </property>
-                <property name="toolTip">
-                 <string>External offset value</string>
-                </property>
-                <property name="text">
-                 <string>000</string>
-                </property>
-                <property name="maxLength">
-                 <number>10</number>
-                </property>
-                <property name="alignment">
-                 <set>Qt::AlignCenter</set>
-                </property>
-                <property name="readOnly">
-                 <bool>true</bool>
-                </property>
-               </widget>
-              </item>
-             </layout>
-            </item>
-            <item>
-             <layout class="QHBoxLayout" name="horizontalLayout_50">
-              <item>
-               <widget class="QLabel" name="label_25">
-                <property name="sizePolicy">
-                 <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
-                  <horstretch>0</horstretch>
-                  <verstretch>0</verstretch>
-                 </sizepolicy>
-                </property>
-                <property name="minimumSize">
-                 <size>
-                  <width>0</width>
-                  <height>30</height>
-                 </size>
-                </property>
-                <property name="maximumSize">
-                 <size>
-                  <width>16777215</width>
-                  <height>28</height>
-                 </size>
-                </property>
-                <property name="text">
-                 <string>Z AXIS COMP</string>
-                </property>
-                <property name="alignment">
-                 <set>Qt::AlignCenter</set>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QLineEdit" name="z_comp_eoffset_value">
-                <property name="sizePolicy">
-                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                  <horstretch>0</horstretch>
-                  <verstretch>0</verstretch>
-                 </sizepolicy>
-                </property>
-                <property name="minimumSize">
-                 <size>
-                  <width>60</width>
-                  <height>30</height>
-                 </size>
-                </property>
-                <property name="maximumSize">
-                 <size>
-                  <width>60</width>
-                  <height>30</height>
-                 </size>
-                </property>
-                <property name="text">
-                 <string>000</string>
-                </property>
-                <property name="maxLength">
-                 <number>10</number>
-                </property>
-                <property name="alignment">
-                 <set>Qt::AlignCenter</set>
-                </property>
-                <property name="readOnly">
-                 <bool>true</bool>
-                </property>
-               </widget>
-              </item>
-             </layout>
+             </widget>
             </item>
             <item>
              <layout class="QHBoxLayout" name="horizontalLayout_29">
@@ -9702,9 +9815,6 @@ OFF</string>
                 </property>
                 <property name="frameShadow">
                  <enum>QFrame::Sunken</enum>
-                </property>
-                <property name="text">
-                 <string/>
                 </property>
                 <property name="alignment">
                  <set>Qt::AlignCenter</set>
@@ -9855,6 +9965,7 @@ OFF</string>
               <property name="font">
                <font>
                 <family>Lato</family>
+                <weight>75</weight>
                 <bold>true</bold>
                </font>
               </property>
@@ -9981,7 +10092,7 @@ OFF</string>
                   <number>6</number>
                  </property>
                  <property name="rightMargin">
-                  <number>6</number>
+                  <number>16</number>
                  </property>
                  <item>
                   <widget class="QCheckBox" name="chk_lock_wph">
@@ -14822,7 +14933,7 @@ ZERO</string>
               <number>0</number>
              </property>
              <item>
-              <widget class="VirtualKeyboard" name="virtualkeyboard" native="true">
+              <widget class="VirtualKeyboard" name="virtualkeyboard">
                <property name="minimumSize">
                 <size>
                  <width>0</width>
@@ -16134,7 +16245,7 @@ ANGULAR</string>
                    <number>2</number>
                   </property>
                   <item>
-                   <widget class="Gauge" name="gauge_spindle" native="true">
+                   <widget class="Gauge" name="gauge_spindle">
                     <property name="halpin_option" stdset="0">
                      <bool>false</bool>
                     </property>
@@ -16630,153 +16741,154 @@ ANGULAR</string>
          </item>
         </layout>
        </item>
-       <item>
-        <layout class="QHBoxLayout" name="horizontalLayout_71">
-         <property name="spacing">
-          <number>6</number>
-         </property>
-         <property name="leftMargin">
-          <number>2</number>
-         </property>
-         <property name="topMargin">
-          <number>0</number>
-         </property>
-         <property name="rightMargin">
-          <number>4</number>
-         </property>
-         <property name="bottomMargin">
-          <number>0</number>
-         </property>
-         <item>
-          <widget class="QLineEdit" name="statusbar">
-           <property name="sizePolicy">
-            <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-             <horstretch>1</horstretch>
-             <verstretch>0</verstretch>
-            </sizepolicy>
-           </property>
-           <property name="minimumSize">
-            <size>
-             <width>746</width>
-             <height>27</height>
-            </size>
-           </property>
-           <property name="maximumSize">
-            <size>
-             <width>1685</width>
-             <height>27</height>
-            </size>
-           </property>
-           <property name="focusPolicy">
-            <enum>Qt::NoFocus</enum>
-           </property>
-           <property name="autoFillBackground">
-            <bool>false</bool>
-           </property>
-           <property name="readOnly">
-            <bool>true</bool>
-           </property>
-           <property name="placeholderText">
-            <string>STATUS</string>
-           </property>
-           <property name="clearButtonEnabled">
-            <bool>false</bool>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <spacer name="horizontalSpacer_3">
-           <property name="orientation">
-            <enum>Qt::Horizontal</enum>
-           </property>
-           <property name="sizeHint" stdset="0">
-            <size>
-             <width>40</width>
-             <height>20</height>
-            </size>
-           </property>
-          </spacer>
-         </item>
-         <item>
-          <widget class="QLabel" name="label_45">
-           <property name="minimumSize">
-            <size>
-             <width>50</width>
-             <height>27</height>
-            </size>
-           </property>
-           <property name="maximumSize">
-            <size>
-             <width>20</width>
-             <height>27</height>
-            </size>
-           </property>
-           <property name="text">
-            <string>TIME</string>
-           </property>
-           <property name="alignment">
-            <set>Qt::AlignCenter</set>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <widget class="StatusLabel" name="lbl_clock">
-           <property name="sizePolicy">
-            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-             <horstretch>0</horstretch>
-             <verstretch>0</verstretch>
-            </sizepolicy>
-           </property>
-           <property name="minimumSize">
-            <size>
-             <width>93</width>
-             <height>27</height>
-            </size>
-           </property>
-           <property name="maximumSize">
-            <size>
-             <width>20</width>
-             <height>27</height>
-            </size>
-           </property>
-           <property name="font">
-            <font>
-             <family>Lato Heavy</family>
-             <pointsize>12</pointsize>
-             <italic>false</italic>
-             <bold>false</bold>
-            </font>
-           </property>
-           <property name="frameShape">
-            <enum>QFrame::NoFrame</enum>
-           </property>
-           <property name="frameShadow">
-            <enum>QFrame::Sunken</enum>
-           </property>
-           <property name="lineWidth">
-            <number>2</number>
-           </property>
-           <property name="text">
-            <string>08:27:40 PM</string>
-           </property>
-           <property name="alignment">
-            <set>Qt::AlignCenter</set>
-           </property>
-           <property name="textTemplate" stdset="0">
-            <string>%I:%M:%S %p</string>
-           </property>
-           <property name="feed_override_status" stdset="0">
-            <bool>false</bool>
-           </property>
-           <property name="time_stamp_status" stdset="0">
-            <bool>true</bool>
-           </property>
-          </widget>
-         </item>
-        </layout>
-       </item>
       </layout>
      </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_71">
+      <property name="spacing">
+       <number>6</number>
+      </property>
+      <property name="leftMargin">
+       <number>2</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>4</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QLineEdit" name="statusbar">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+          <horstretch>1</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>746</width>
+          <height>27</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>1685</width>
+          <height>27</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+        <property name="placeholderText">
+         <string>STATUS</string>
+        </property>
+        <property name="clearButtonEnabled">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_3">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_45">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>27</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>20</width>
+          <height>27</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>TIME</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="StatusLabel" name="lbl_clock">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>93</width>
+          <height>27</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>20</width>
+          <height>27</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Lato Heavy</family>
+          <pointsize>12</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::NoFrame</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Sunken</enum>
+        </property>
+        <property name="lineWidth">
+         <number>2</number>
+        </property>
+        <property name="text">
+         <string>08:27:40 PM</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="textTemplate" stdset="0">
+         <string>%I:%M:%S %p</string>
+        </property>
+        <property name="feed_override_status" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="time_stamp_status" stdset="0">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
     </item>
    </layout>
   </widget>
@@ -16980,7 +17092,7 @@ ANGULAR</string>
  </customwidgets>
  <resources>
   <include location="qtdragon_hd.qrc"/>
-  <include location="qtdragon_hd.qrc"/>
+  <include location="../qtdragon/qtdragon.qrc"/>
  </resources>
  <connections>
   <connection>
@@ -17336,6 +17448,38 @@ ANGULAR</string>
    </hints>
   </connection>
   <connection>
+   <sender>btn_cycle_start</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>btn_start_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>43</x>
+     <y>684</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-77</x>
+     <y>674</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_pause_spindle</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>btn_pause_spindle_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>99</x>
+     <y>974</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-57</x>
+     <y>917</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
    <sender>chk_use_touchplate</sender>
    <signal>stateChanged(int)</signal>
    <receiver>MainWindow</receiver>
@@ -17528,6 +17672,22 @@ ANGULAR</string>
    </hints>
   </connection>
   <connection>
+   <sender>action_abort</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>btn_stop_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>154</x>
+     <y>741</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-86</x>
+     <y>744</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
    <sender>chk_lock_wph</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
@@ -17588,6 +17748,38 @@ ANGULAR</string>
     <hint type="destinationlabel">
      <x>1420</x>
      <y>-1</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_reload_file</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>btn_reload_file_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>27</x>
+     <y>806</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-4</x>
+     <y>781</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_enable_comp</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>btn_enable_comp_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>145</x>
+     <y>968</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-1</x>
+     <y>856</y>
     </hint>
    </hints>
   </connection>
@@ -17752,6 +17944,22 @@ ANGULAR</string>
    </hints>
   </connection>
   <connection>
+   <sender>action_pause</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>btn_pause_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>44</x>
+     <y>759</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-80</x>
+     <y>663</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
    <sender>btn_dimensions</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
@@ -17764,22 +17972,6 @@ ANGULAR</string>
     <hint type="destinationlabel">
      <x>1188</x>
      <y>-106</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>btn_cycle_start</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>btn_start_clicked()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>51</x>
-     <y>53</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>959</x>
-     <y>539</y>
     </hint>
    </hints>
   </connection>
@@ -17867,7 +18059,7 @@ ANGULAR</string>
   <slot>btn_pause_clicked()</slot>
  </slots>
  <buttongroups>
-  <buttongroup name="page_buttonGroup"/>
   <buttongroup name="mode_buttonGroup"/>
+  <buttongroup name="page_buttonGroup"/>
  </buttongroups>
 </ui>
